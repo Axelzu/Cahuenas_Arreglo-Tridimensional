@@ -20,6 +20,12 @@ int main() {
             }
         }
     }
+     // esto es para que en la ultima matriz salgan "1"
+    for (int j = 0; j < y; j++) {
+        for (int k = 0; k < z; k++) {
+            arreglo[x-1][j][k] = 1;
+        }
+    }
 
     return 0;
 }
